@@ -16,3 +16,8 @@ def index():
 @app.route('/about')
 def about():
 		return render_template('about.html')
+
+# Create Calendar Page
+@app.route('/calendar')
+def calendar():
+		return render_template('calendar.html')
